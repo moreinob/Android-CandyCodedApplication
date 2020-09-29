@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">Candy Coded</string>
     <string name="products_title">Products</string>
+    <string name="text_view_name">TextView</string>
+    <string name="text_view_price">TextView</string>
+    <string name="text_view_desc">TextView</string>
+    <string name="image_view_candy">image_view_candy</string>
+    <string name="text_view_address">618 E South St Orlando, FL</string>
+    <string name="text_view_phone">(012)345–6789</string>
+    <string name="text_view_hours">Everyday 10am-10pm</string>
+    <string name="image_view_candy_store">TODO</string>
+    <string name="image_view_phone">Phone Image</string>
+    <string name="image_view_hours">View Hours</string>
+    <string name="image_view_map">View Map</string>
 </resources>

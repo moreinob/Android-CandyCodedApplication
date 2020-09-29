@@ -2,7 +2,7 @@ package com.pluralsight.candycoded;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import org.junit.BeforeClass;
@@ -109,7 +109,7 @@ public class _1_StartTheStoreInformationActivity {
 
     @Test
     public void override_mainactivity_onoptionitemselected() throws Exception {
-        // Determine if the method OnOptionsItemSelected() is implemented in MainActivity
+        // Determine if the method onoptionsItemSelected() is implemented in MainActivity
         // or just in the Base class
         Class<?> myClass = null;
 

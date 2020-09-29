@@ -2,7 +2,7 @@ package com.pluralsight.candycoded;
 
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
 import org.junit.BeforeClass;
@@ -125,7 +125,7 @@ public class _4_ShareACandyWithAnIntent {
     public void share_intent_startactivity() throws Exception {
         assertTrue("The method startActivity() was not called.", called_startActivity_correctly);
     }
-    
+
     @Test
     public void createShareIntent_Exists() throws Exception {
         Method myMethod = null;
@@ -139,4 +139,3 @@ public class _4_ShareACandyWithAnIntent {
         assertNotNull("reateShareIntent() method doesn't exist in DetailActivity class.", myMethod);
     }
 }
-

@@ -5,10 +5,11 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import org.junit.Assert;
+import junit.framework.Assert;
+
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -192,4 +193,3 @@ public class _2_StartTheGoogleMapsActivity {
         return viewContainers;
     }
 }
-
